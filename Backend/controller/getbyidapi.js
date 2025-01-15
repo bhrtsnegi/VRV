@@ -10,7 +10,7 @@ const userdatagetbyid = async (req, res) => {
         if (!getbyid) {
             return res
                 .status(400)
-                .send({ success: false, error: "User Not Found" }); G
+                .send({ success: false, error: "User Not Found" });
         }
         return res
             .status(200)
